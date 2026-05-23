@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EC25B2102FC19E2B000F992E /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = EC25B20F2FC19E24000F992E /* schema.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EC25B1F32FC19CF6000F992E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		EC25B1E22FC19CF5000F992E /* planzo-mobile-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "planzo-mobile-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC25B1F22FC19CF6000F992E /* planzo-mobile-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "planzo-mobile-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC25B1FC2FC19CF6000F992E /* planzo-mobile-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "planzo-mobile-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC25B20F2FC19E24000F992E /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				EC25B1F52FC19CF6000F992E /* planzo-mobile-appTests */,
 				EC25B1FF2FC19CF6000F992E /* planzo-mobile-appUITests */,
 				EC25B1E32FC19CF5000F992E /* Products */,
+				EC25B20F2FC19E24000F992E /* schema.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC25B2102FC19E2B000F992E /* schema.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
